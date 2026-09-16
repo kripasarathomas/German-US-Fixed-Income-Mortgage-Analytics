@@ -1,0 +1,3 @@
+model,r_squared,adjusted_r_squared,observations
+Germany mortgage rate,0.9858230926095083,0.9854971866924855,90
+US 30Y mortgage rate,0.9602588064486731,0.9593452157923208,90

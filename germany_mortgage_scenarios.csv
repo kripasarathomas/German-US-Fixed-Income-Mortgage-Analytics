@@ -1,0 +1,4 @@
+scenario,ecb_policy_rate,germany_10y_bund_yield,estimated_mortgage_rate
+Lower rates,1.5,1.5,2.968385118263524
+Baseline,2.25,2.5,3.7475048187686557
+Higher rates,3.0,3.5,4.526624519273788

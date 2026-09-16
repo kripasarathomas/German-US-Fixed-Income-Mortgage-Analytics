@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+primaryColor = "#00d4ff"           # accent: cyan — used for tab underline, links, active states
+backgroundColor = "#0e1117"        # page background
+secondaryBackgroundColor = "#161b22"  # sidebar / card background
+textColor = "#e6e6e6"
+font = "sans serif"

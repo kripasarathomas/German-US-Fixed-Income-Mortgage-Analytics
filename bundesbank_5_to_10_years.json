@@ -1,0 +1,965 @@
+{
+  "meta": {
+    "schema": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/develop/data-message/tools/schemas/1.0/sdmx-json-data-schema.json",
+    "id": "BBIM1_M_DE_B_A2C_O_R_A_2250_EUR_N",
+    "test": false,
+    "prepared": "2026-09-02T09:57:48.000Z",
+    "contentLanguages": [
+      "de"
+    ],
+    "sender": {
+      "id": "BBK",
+      "names": {
+        "de": "Deutsche Bundesbank"
+      },
+      "contact": [
+        {
+          "name": "Deutsche Bundesbank",
+          "emails": [
+            "presse-information@bundesbank.de"
+          ]
+        }
+      ]
+    }
+  },
+  "data": {
+    "structure": {
+      "dimensions": {
+        "dataSet": [
+          {
+            "id": "DATAFLOW",
+            "name": "DATAFLOW",
+            "keyPosition": 0,
+            "default": "BBIM1",
+            "values": [
+              {
+                "id": "BBIM1",
+                "name": "BBIM1"
+              }
+            ]
+          }
+        ],
+        "series": [
+          {
+            "id": "BBK_STD_FREQ",
+            "name": "BBK_STD_FREQ",
+            "keyPosition": 1,
+            "default": "M",
+            "values": [
+              {
+                "id": "M",
+                "name": "M"
+              }
+            ]
+          },
+          {
+            "id": "BBK_STD_AREA",
+            "name": "BBK_STD_AREA",
+            "keyPosition": 2,
+            "default": "DE",
+            "values": [
+              {
+                "id": "DE",
+                "name": "DE"
+              }
+            ]
+          },
+          {
+            "id": "BBK_IRM_REF_SEC",
+            "name": "BBK_IRM_REF_SEC",
+            "keyPosition": 3,
+            "default": "B",
+            "values": [
+              {
+                "id": "B",
+                "name": "B"
+              }
+            ]
+          },
+          {
+            "id": "BBK_IRM_ITEM",
+            "name": "BBK_IRM_ITEM",
+            "keyPosition": 4,
+            "default": "A2C",
+            "values": [
+              {
+                "id": "A2C",
+                "name": "A2C"
+              }
+            ]
+          },
+          {
+            "id": "BBK_BS_MATURITY_ORIG",
+            "name": "BBK_BS_MATURITY_ORIG",
+            "keyPosition": 5,
+            "default": "O",
+            "values": [
+              {
+                "id": "O",
+                "name": "O"
+              }
+            ]
+          },
+          {
+            "id": "BBK_IRM_DATA_TYPE",
+            "name": "BBK_IRM_DATA_TYPE",
+            "keyPosition": 6,
+            "default": "R",
+            "values": [
+              {
+                "id": "R",
+                "name": "R"
+              }
+            ]
+          },
+          {
+            "id": "BBK_IRM_AMOUNT_CAT",
+            "name": "BBK_IRM_AMOUNT_CAT",
+            "keyPosition": 7,
+            "default": "A",
+            "values": [
+              {
+                "id": "A",
+                "name": "A"
+              }
+            ]
+          },
+          {
+            "id": "BBK_BS_COUNT_SEC",
+            "name": "BBK_BS_COUNT_SEC",
+            "keyPosition": 8,
+            "default": "2250",
+            "values": [
+              {
+                "id": "2250",
+                "name": "2250"
+              }
+            ]
+          },
+          {
+            "id": "BBK_STD_CURRENCY",
+            "name": "BBK_STD_CURRENCY",
+            "keyPosition": 9,
+            "default": "EUR",
+            "values": [
+              {
+                "id": "EUR",
+                "name": "EUR"
+              }
+            ]
+          },
+          {
+            "id": "BBK_IRM_BUS_COV",
+            "name": "BBK_IRM_BUS_COV",
+            "keyPosition": 10,
+            "default": "N",
+            "values": [
+              {
+                "id": "N",
+                "name": "N"
+              }
+            ]
+          }
+        ],
+        "observation": [
+          {
+            "id": "TIME_PERIOD",
+            "name": "TIME_PERIOD",
+            "keyPosition": 11,
+            "values": [
+              {
+                "id": "2019-01",
+                "name": "2019-01"
+              },
+              {
+                "id": "2019-02",
+                "name": "2019-02"
+              },
+              {
+                "id": "2019-03",
+                "name": "2019-03"
+              },
+              {
+                "id": "2019-04",
+                "name": "2019-04"
+              },
+              {
+                "id": "2019-05",
+                "name": "2019-05"
+              },
+              {
+                "id": "2019-06",
+                "name": "2019-06"
+              },
+              {
+                "id": "2019-07",
+                "name": "2019-07"
+              },
+              {
+                "id": "2019-08",
+                "name": "2019-08"
+              },
+              {
+                "id": "2019-09",
+                "name": "2019-09"
+              },
+              {
+                "id": "2019-10",
+                "name": "2019-10"
+              },
+              {
+                "id": "2019-11",
+                "name": "2019-11"
+              },
+              {
+                "id": "2019-12",
+                "name": "2019-12"
+              },
+              {
+                "id": "2020-01",
+                "name": "2020-01"
+              },
+              {
+                "id": "2020-02",
+                "name": "2020-02"
+              },
+              {
+                "id": "2020-03",
+                "name": "2020-03"
+              },
+              {
+                "id": "2020-04",
+                "name": "2020-04"
+              },
+              {
+                "id": "2020-05",
+                "name": "2020-05"
+              },
+              {
+                "id": "2020-06",
+                "name": "2020-06"
+              },
+              {
+                "id": "2020-07",
+                "name": "2020-07"
+              },
+              {
+                "id": "2020-08",
+                "name": "2020-08"
+              },
+              {
+                "id": "2020-09",
+                "name": "2020-09"
+              },
+              {
+                "id": "2020-10",
+                "name": "2020-10"
+              },
+              {
+                "id": "2020-11",
+                "name": "2020-11"
+              },
+              {
+                "id": "2020-12",
+                "name": "2020-12"
+              },
+              {
+                "id": "2021-01",
+                "name": "2021-01"
+              },
+              {
+                "id": "2021-02",
+                "name": "2021-02"
+              },
+              {
+                "id": "2021-03",
+                "name": "2021-03"
+              },
+              {
+                "id": "2021-04",
+                "name": "2021-04"
+              },
+              {
+                "id": "2021-05",
+                "name": "2021-05"
+              },
+              {
+                "id": "2021-06",
+                "name": "2021-06"
+              },
+              {
+                "id": "2021-07",
+                "name": "2021-07"
+              },
+              {
+                "id": "2021-08",
+                "name": "2021-08"
+              },
+              {
+                "id": "2021-09",
+                "name": "2021-09"
+              },
+              {
+                "id": "2021-10",
+                "name": "2021-10"
+              },
+              {
+                "id": "2021-11",
+                "name": "2021-11"
+              },
+              {
+                "id": "2021-12",
+                "name": "2021-12"
+              },
+              {
+                "id": "2022-01",
+                "name": "2022-01"
+              },
+              {
+                "id": "2022-02",
+                "name": "2022-02"
+              },
+              {
+                "id": "2022-03",
+                "name": "2022-03"
+              },
+              {
+                "id": "2022-04",
+                "name": "2022-04"
+              },
+              {
+                "id": "2022-05",
+                "name": "2022-05"
+              },
+              {
+                "id": "2022-06",
+                "name": "2022-06"
+              },
+              {
+                "id": "2022-07",
+                "name": "2022-07"
+              },
+              {
+                "id": "2022-08",
+                "name": "2022-08"
+              },
+              {
+                "id": "2022-09",
+                "name": "2022-09"
+              },
+              {
+                "id": "2022-10",
+                "name": "2022-10"
+              },
+              {
+                "id": "2022-11",
+                "name": "2022-11"
+              },
+              {
+                "id": "2022-12",
+                "name": "2022-12"
+              },
+              {
+                "id": "2023-01",
+                "name": "2023-01"
+              },
+              {
+                "id": "2023-02",
+                "name": "2023-02"
+              },
+              {
+                "id": "2023-03",
+                "name": "2023-03"
+              },
+              {
+                "id": "2023-04",
+                "name": "2023-04"
+              },
+              {
+                "id": "2023-05",
+                "name": "2023-05"
+              },
+              {
+                "id": "2023-06",
+                "name": "2023-06"
+              },
+              {
+                "id": "2023-07",
+                "name": "2023-07"
+              },
+              {
+                "id": "2023-08",
+                "name": "2023-08"
+              },
+              {
+                "id": "2023-09",
+                "name": "2023-09"
+              },
+              {
+                "id": "2023-10",
+                "name": "2023-10"
+              },
+              {
+                "id": "2023-11",
+                "name": "2023-11"
+              },
+              {
+                "id": "2023-12",
+                "name": "2023-12"
+              },
+              {
+                "id": "2024-01",
+                "name": "2024-01"
+              },
+              {
+                "id": "2024-02",
+                "name": "2024-02"
+              },
+              {
+                "id": "2024-03",
+                "name": "2024-03"
+              },
+              {
+                "id": "2024-04",
+                "name": "2024-04"
+              },
+              {
+                "id": "2024-05",
+                "name": "2024-05"
+              },
+              {
+                "id": "2024-06",
+                "name": "2024-06"
+              },
+              {
+                "id": "2024-07",
+                "name": "2024-07"
+              },
+              {
+                "id": "2024-08",
+                "name": "2024-08"
+              },
+              {
+                "id": "2024-09",
+                "name": "2024-09"
+              },
+              {
+                "id": "2024-10",
+                "name": "2024-10"
+              },
+              {
+                "id": "2024-11",
+                "name": "2024-11"
+              },
+              {
+                "id": "2024-12",
+                "name": "2024-12"
+              },
+              {
+                "id": "2025-01",
+                "name": "2025-01"
+              },
+              {
+                "id": "2025-02",
+                "name": "2025-02"
+              },
+              {
+                "id": "2025-03",
+                "name": "2025-03"
+              },
+              {
+                "id": "2025-04",
+                "name": "2025-04"
+              },
+              {
+                "id": "2025-05",
+                "name": "2025-05"
+              },
+              {
+                "id": "2025-06",
+                "name": "2025-06"
+              },
+              {
+                "id": "2025-07",
+                "name": "2025-07"
+              },
+              {
+                "id": "2025-08",
+                "name": "2025-08"
+              },
+              {
+                "id": "2025-09",
+                "name": "2025-09"
+              },
+              {
+                "id": "2025-10",
+                "name": "2025-10"
+              },
+              {
+                "id": "2025-11",
+                "name": "2025-11"
+              },
+              {
+                "id": "2025-12",
+                "name": "2025-12"
+              },
+              {
+                "id": "2026-01",
+                "name": "2026-01"
+              },
+              {
+                "id": "2026-02",
+                "name": "2026-02"
+              },
+              {
+                "id": "2026-03",
+                "name": "2026-03"
+              },
+              {
+                "id": "2026-04",
+                "name": "2026-04"
+              },
+              {
+                "id": "2026-05",
+                "name": "2026-05"
+              },
+              {
+                "id": "2026-06",
+                "name": "2026-06"
+              },
+              {
+                "id": "2026-07",
+                "name": "2026-07"
+              }
+            ]
+          }
+        ]
+      },
+      "attributes": {
+        "series": [
+          {
+            "id": "TIME_FORMAT",
+            "name": "TIME_FORMAT",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "P1M"
+              }
+            ]
+          },
+          {
+            "id": "BBK_DECIMALS",
+            "name": "BBK_DECIMALS",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "2"
+              }
+            ]
+          },
+          {
+            "id": "BBK_ID",
+            "name": "BBK_ID",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "BBIM1.M.DE.B.A2C.O.R.A.2250.EUR.N"
+              }
+            ]
+          },
+          {
+            "id": "BBK_UNIT",
+            "name": "BBK_UNIT",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "% p.a."
+              }
+            ]
+          },
+          {
+            "id": "BBK_UNIT_MULT",
+            "name": "BBK_UNIT_MULT",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "0"
+              }
+            ]
+          },
+          {
+            "id": "BBK_TITLE",
+            "name": "BBK_TITLE",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "Effektivzinss\u00e4tze Banken DE / Neugesch\u00e4ft / Wohnungsbaukredite an private Haushalte, anf\u00e4ngliche Zinsbindung \u00fcber 5 bis 10 Jahre / SUD118"
+              }
+            ]
+          },
+          {
+            "id": "BBK_COMM_GEN",
+            "name": "BBK_COMM_GEN",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "Die auf harmonisierter Basis im Euro-W\u00e4hrungsgebiet erhobene MFI-Zinsstatistik wird in Deutschland als Stichprobenerhebung (geschichtete Stichprobe) durchgef\u00fchrt. Volumengewichteter Durchschnittssatz \u00fcber alle im Laufe des Berichtsmonats abgeschlossenen Neuvereinbarungen. (Bis Mai 2010 wurde der Aggregatszinssatz als mit den gemeldeten Neugesch\u00e4ftsvolumina gewichteter Durchschnittssatz berechnet. Ab Juni 2010 wird zun\u00e4chst ein mit dem gemeldeten Neugesch\u00e4ftsvolumen gewichteter Zinssatz pro Schicht berechnet. Der Aggregatszinssatz wird ermittelt, indem die Schichtenzinss\u00e4tze mit den hochgerechneten Volumina gewichtet werden.) Die Effektivzinss\u00e4tze k\u00f6nnen grunds\u00e4tzlich als annualisierte vereinbarte Jahreszinss\u00e4tze (AVJ) oder als eng definierte Effektivzinss\u00e4tze (NDER) ermittelt werden. Beide Berechnungsmethoden umfassen s\u00e4mtliche Zinszahlungen auf Einlagen und Kredite, jedoch keine eventuell anfallenden sonstigen Kosten, wie z.B. f\u00fcr Anfragen, Verwaltung, Erstellung der Dokumente, Garantien und Kreditversicherungen. Ein gew\u00e4hrtes Disagio wird als Zinszahlung betrachtet und in die Zinsberechnung einbezogen. Der einzige Unterschied zwischen dem AVJ und dem NDER ist die zu Grunde liegende Methode zur Annualisierung von Zinszahlungen. Wohnungsbaukredite sind besicherte und unbesicherte Kredite, die f\u00fcr die Beschaffung von Wohnraum, einschl. Wohnungsbau und -modernisierung gew\u00e4hrt werden; einschl. Bauspardarlehen und Bauzwischenfinanzierungen sowie Weiterleitungskredite, die die Meldepflichtigen im eigenen Namen und auf eigene Rechnung ausgereicht haben."
+              }
+            ]
+          },
+          {
+            "id": "WEB_CATEGORY",
+            "name": "WEB_CATEGORY",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "ZREK"
+              }
+            ]
+          }
+        ],
+        "observation": [
+          {
+            "id": "OBS_STATUS",
+            "name": "OBS_STATUS",
+            "relationship": {
+              "none": {}
+            },
+            "values": [
+              null,
+              {
+                "name": "P"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "dataSets": [
+      {
+        "action": "Replace",
+        "validFrom": "2026-09-02T09:57:48.100Z",
+        "series": {
+          "0:0:0:0:0:0:0:0:0:0": {
+            "attributes": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "observations": {
+              "0": [
+                "1.70"
+              ],
+              "1": [
+                "1.63"
+              ],
+              "2": [
+                "1.59"
+              ],
+              "3": [
+                "1.53"
+              ],
+              "4": [
+                "1.46"
+              ],
+              "5": [
+                "1.41"
+              ],
+              "6": [
+                "1.34"
+              ],
+              "7": [
+                "1.23"
+              ],
+              "8": [
+                "1.14"
+              ],
+              "9": [
+                "1.12"
+              ],
+              "10": [
+                "1.09"
+              ],
+              "11": [
+                "1.14"
+              ],
+              "12": [
+                "1.16"
+              ],
+              "13": [
+                "1.13"
+              ],
+              "14": [
+                "1.07"
+              ],
+              "15": [
+                "1.11"
+              ],
+              "16": [
+                "1.12"
+              ],
+              "17": [
+                "1.17"
+              ],
+              "18": [
+                "1.12"
+              ],
+              "19": [
+                "1.07"
+              ],
+              "20": [
+                "1.07"
+              ],
+              "21": [
+                "1.03"
+              ],
+              "22": [
+                "1.03"
+              ],
+              "23": [
+                "1.02"
+              ],
+              "24": [
+                "1.03"
+              ],
+              "25": [
+                "1.04"
+              ],
+              "26": [
+                "1.02"
+              ],
+              "27": [
+                "1.06"
+              ],
+              "28": [
+                "1.09"
+              ],
+              "29": [
+                "1.12"
+              ],
+              "30": [
+                "1.14"
+              ],
+              "31": [
+                "1.10"
+              ],
+              "32": [
+                "1.09"
+              ],
+              "33": [
+                "1.10"
+              ],
+              "34": [
+                "1.15"
+              ],
+              "35": [
+                "1.16"
+              ],
+              "36": [
+                "1.19"
+              ],
+              "37": [
+                "1.29"
+              ],
+              "38": [
+                "1.50"
+              ],
+              "39": [
+                "1.81"
+              ],
+              "40": [
+                "2.12"
+              ],
+              "41": [
+                "2.46"
+              ],
+              "42": [
+                "2.73"
+              ],
+              "43": [
+                "2.74"
+              ],
+              "44": [
+                "2.96"
+              ],
+              "45": [
+                "3.19"
+              ],
+              "46": [
+                "3.51"
+              ],
+              "47": [
+                "3.41"
+              ],
+              "48": [
+                "3.45"
+              ],
+              "49": [
+                "3.60"
+              ],
+              "50": [
+                "3.64"
+              ],
+              "51": [
+                "3.70"
+              ],
+              "52": [
+                "3.66"
+              ],
+              "53": [
+                "3.73"
+              ],
+              "54": [
+                "3.71"
+              ],
+              "55": [
+                "3.81"
+              ],
+              "56": [
+                "3.89"
+              ],
+              "57": [
+                "3.85"
+              ],
+              "58": [
+                "3.92"
+              ],
+              "59": [
+                "3.80"
+              ],
+              "60": [
+                "3.56"
+              ],
+              "61": [
+                "3.59"
+              ],
+              "62": [
+                "3.55"
+              ],
+              "63": [
+                "3.57"
+              ],
+              "64": [
+                "3.60"
+              ],
+              "65": [
+                "3.66"
+              ],
+              "66": [
+                "3.64"
+              ],
+              "67": [
+                "3.60"
+              ],
+              "68": [
+                "3.47"
+              ],
+              "69": [
+                "3.42"
+              ],
+              "70": [
+                "3.36"
+              ],
+              "71": [
+                "3.32"
+              ],
+              "72": [
+                "3.30"
+              ],
+              "73": [
+                "3.35"
+              ],
+              "74": [
+                "3.39"
+              ],
+              "75": [
+                "3.48"
+              ],
+              "76": [
+                "3.51"
+              ],
+              "77": [
+                "3.52"
+              ],
+              "78": [
+                "3.55"
+              ],
+              "79": [
+                "3.56"
+              ],
+              "80": [
+                "3.60"
+              ],
+              "81": [
+                "3.58"
+              ],
+              "82": [
+                "3.56"
+              ],
+              "83": [
+                "3.58"
+              ],
+              "84": [
+                "3.58"
+              ],
+              "85": [
+                "3.61"
+              ],
+              "86": [
+                "3.60"
+              ],
+              "87": [
+                "3.66"
+              ],
+              "88": [
+                "3.74"
+              ],
+              "89": [
+                "3.76"
+              ],
+              "90": [
+                "3.78",
+                1
+              ]
+            }
+          }
+        },
+        "links": [
+          {
+            "rel": "structure",
+            "urn": "urn:sdmx:org.sdmx.infomodel.datastructure.DataStructure=BBK:BBK_IRM(1.0)"
+          }
+        ]
+      }
+    ]
+  }
+}
