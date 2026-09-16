@@ -1,6 +1,6 @@
 # German & US Fixed-Income Mortgage Desk Analytics
 
-🚀 **Live Dashboard:** [View Interactive Analytics App](https://german-us-fixed-income-mortgage-analytics-uacjwyd7s4mgzfmetcud.streamlit.app/)
+🚀 **Live Dashboard:** [View Interactive Analytics App](https://german-us-fixed-income-mortgage-analytics.streamlit.app/)
 
 An end-to-end financial data analytics project focused on
 fixed-income and mortgage markets.
